@@ -109,6 +109,7 @@ public class Main3Activity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
         Log.e("master", "tet");
+        Log.e("User1", "test2");
         mHandler.removeCallbacks(mRunnable);
     }
 
