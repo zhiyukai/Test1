@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#093"
+        android:text="Test Layout !"/>
+
+    <TextView
+        android:id="@+id/tv_right"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:background="#f00"
+        android:text="Hello World!"/>
+
+
+</LinearLayout>

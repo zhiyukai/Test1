@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_text"
+        style="@style/UpdateUiText"
+        android:text="init"
+    />
+
+    <Button
+        android:id="@+id/bt_button1"
+        style="@style/UpdateUiButton"
+        android:text="Button1"
+    />
+
+    <Button
+        android:id="@+id/bt_button2"
+        style="@style/UpdateUiButton"
+        android:text="Button2"
+    />
+
+    <Button
+        android:id="@+id/bt_button3"
+        style="@style/UpdateUiButton"
+        android:text="Button3"
+    />
+
+    <Button
+        android:id="@+id/bt_button4"
+        style="@style/UpdateUiButton"
+        android:text="Button4"
+    />
+
+    <Button
+        android:id="@+id/bt_button5"
+        style="@style/UpdateUiButton"
+        android:text="Button5"
+    />
+
+    <Button
+        android:id="@+id/bt_button6"
+        style="@style/UpdateUiButton"
+        android:text="Button6"
+    />
+
+    <ImageView
+        android:id="@+id/iv_img"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
