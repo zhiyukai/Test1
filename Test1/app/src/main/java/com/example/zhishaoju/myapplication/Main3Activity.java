@@ -108,7 +108,6 @@ public class Main3Activity extends Activity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.e("master", "onDestory");
         mHandler.removeCallbacks(mRunnable);
     }
 
